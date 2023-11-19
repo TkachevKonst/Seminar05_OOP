@@ -41,7 +41,7 @@ public class BookingView implements View {
             System.out.printf("Изменение брони произошло успешно. Номер резерва: #%d\n", reservationNo);
         }
         else {
-            System.out.println("Произошла ошибка бронирования. Повторите операцию позже.");
+            System.out.println("Произошла ошибка бронирования. Проверте данные и повторите операцию.");
         }
     }
 
